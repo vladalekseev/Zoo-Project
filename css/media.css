@@ -1,0 +1,66 @@
+@media screen and (min-width: 1024px) {
+    body {
+        background: #b3b3b3 url(../img/t2.jpg) center 10%;
+    }
+    .wrapper {
+        width: 1024px;
+        margin: auto;
+    }
+
+
+}
+
+
+@media screen and (max-width: 425px) {
+    nav ul {
+        height: 120px;
+    }
+
+    nav ul li{
+        flex: 0 0 50%;
+        line-height: 60px;
+        height: 0%;
+    }
+
+    footer {
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .invitation .text {
+        text-align: center;
+        flex: 2 1 100%;
+    }
+    .invitation .buttons {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .invitation button {
+        margin: 10px auto;
+        width: 70%;
+    }
+
+    .my_form {
+        width: 90%;
+    }
+
+    .my_form form input, select {
+        margin-top: 5px;
+        width: 90%;
+    }
+
+
+}
+
+@media screen and (max-width: 920px) {
+
+    .my_form form input, select {
+        margin-top: 5px;
+        width: 70%;
+    }
+
+}

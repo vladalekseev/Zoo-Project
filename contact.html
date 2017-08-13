@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alternative</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+
+
+    <header>
+        <div class="wrapper">
+            <nav>
+                <ul>
+                    <li><a href="main.html">main</a></li>
+                    <li><a href="animals.html">animals</a></li>
+                    <li><a href="information.html">information</a></li>
+                    <li><a href="contact.html">order</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="wrapper">
+        <div class="flex-form">
+            <section class="my_form">
+                <form>
+                    <div>
+                        <label>
+                            <span>Name</span>
+                            <input type="text" required pattern="([A-Z])\w+">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <span>E-mail</span>
+                            <input type="email" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <span>City</span>
+                            <input type="text" required pattern="([A-Z])\w+">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <span>Telephone</span>
+                            <input type="text" required placeholder="+38(050) 888 88 88" pattern="\+?38\(0\d\d\)\s?[\d]{3}\s?[\d]{2}\s?[\d]{2}">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <span>Type</span>
+                            <select>
+                                <option value="EMPILS">1-Day Pass</option>
+                                <option value="Finncolor">1-Day Pass Plus</option>
+                                <option value="MARSHALL">2-Visit Pass</option>
+                                <option value="ALPINA">2-Visit Pass Plus</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <span>Amount</span>
+                            <input type="number" min="1" max="10" value="1" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <span class="dist forRadioYes">Adult</span>
+                            <input type="radio" required name="rad" class="radio " value="cash">
+                        </label>
+                        <label>
+                            <span class="dist forRadioNo">Child</span>
+                            <input type="radio" required name="rad" class="radio" value="nocash">
+                        </label>
+
+                    </div>
+
+                    <input type="submit" class="submit" value="Order ticket">
+                </form>
+            </section>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+</html>

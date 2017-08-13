@@ -1,0 +1,94 @@
+
+.flex-form {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.my_form {
+    width: 60%;
+    height: 700px;
+    align-items: center;
+    border: 1px solid rgba(227, 227, 227, 0.5);
+    border-radius: 40px;
+    display: flex;
+    background-color: rgba(100, 100, 100, .5);
+    transition: 1s;
+}
+
+.my_form:hover {
+    background-color: rgba(100, 100, 100, .7);
+}
+
+.my_form form {
+    margin: auto;
+    height: 600px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.my_form form span {
+    display: inline-block;
+    width: 230px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.my_form form input, select {
+    width: 200px;
+    height: 20px;
+    font-size: 16px;
+    color: #383838;
+    box-shadow: 1px 2px 6px 2px rgba(0,0,0,.5);
+}
+
+.my_form form input.radio {
+    box-shadow: none;
+    width: 50px;
+}
+
+.my_form form input.submit {
+    width: 60%;
+    height: 40px;
+    margin: 30px auto;
+    color: #fff;
+    background: rgba(100,100,100,.8);
+    box-shadow: 1px 2px 6px 2px rgba(0,0,0,.5);
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px 5px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    text-transform: capitalize;
+    transition: .7s;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.my_form form input.submit:hover {
+    background: rgba(100,100,100,1) linear-gradient(360deg, #3f3f3f, #626262);
+    box-shadow: 2px 4px 8px 2px rgba(0,0,0,.5);
+    transform: scale(1.02);
+
+}
+
+
+
+.my_form div span.dist {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.my_form label {
+    cursor: pointer;
+}
+
+.my_form section {
+    text-align: center;
+}
+
+
